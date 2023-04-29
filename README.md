@@ -11,3 +11,11 @@
 #### Pre-trained models on SQuAD 1.0 and SQuAD 2.0 can be found in the respective folders [here](https://drive.google.com/drive/folders/12kU8E_ti-F2cQ67sjRb5ymZl1K-234d3?usp=sharing)
 
 #### Github Link for all the codes and experimentations can be found [here](https://github.com/imRP26/iNLP_QnA)
+
+#### Method of Execution of the 2 scripts :- 
+
+##### python3 TrainingBERT.py -t <train_dataset_path> -v <validation_dataset_path>
+
+##### python3 FineTunedBERTevaluation.py -m <pre_trained_model_path> -v <validation_dataset_path>
+
+##### NOTE : Its assumed that the required files are present in the same directory as the script(s).
